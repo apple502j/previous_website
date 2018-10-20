@@ -1,0 +1,64 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(52, 46, 102);
+    border-bottom:2px solid rgb(85, 103, 47);
+    color: white;
+    font-face: sans-serif;
+    width: 100%;
+    height: 40px;
+    z-index: 999;
+}
+
+header > span:nth-child(2) {
+    position: fixed;
+}
+
+header > span:not(:first-child) {
+    top: 12px;
+    padding: 0 6px;
+}
+
+header select {
+    border-radius: 12px;
+}
+
+header span#supportedBy {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+header a:any-link {
+    color: rgb(255, 154, 1);
+}
+
+header img#appleLogo {
+    width: 32px;
+    padding: 0 11px;
+}
+
+#main {
+    position: relative;
+    top:32px;
+    left: -8px;
+    width: calc(100% + 8px);
+    height:calc(100% - 24px);
+    overflow-y:auto;
+    overflow-x:auto;
+    white-space: normal;
+    z-index: 1;
+    scroll-behavior: smooth;
+    background-image: url("./img/back.png");
+    background-color: rgba(0, 0, 0, 0.77);
+    background-repeat: repeat;
+    background-size: 90px;
+    color: rgb(54, 37, 13);
+    padding: 10px;
+}
