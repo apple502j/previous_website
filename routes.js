@@ -1,18 +1,31 @@
-const host = "https://apple502j.github.io"
-const titlePrefix = "Apple502j - "
+const host = "https://apple502j.github.io";
+const domain = "apple502j.github.io";
+const titlePrefix = "Apple502j - ";
+let paths = document.URL.split("/");
+let newpaths = [];
+for (let k of paths) {
+    if (newpaths.includes(domain) || k==domain) newpaths.push(k);
+}
+newpaths.shift();
+const relativePath = newpaths.join("/").replace(/\.html?$/g, "");
+const depth = relativePath.split("/").length - 1;
 
 const routes = new Map(Object.entries({
-    "home": {
+    "index": {
         title: "HOME",
-        url: "/"
+        url: ""
     },
-    "home-who": {
+    "who": {
         title: "About Me",
-        url: "/who"
+        url: "who"
     },
-    "home-who_en": {
+    "who_en": {
         title: "About Me (English)",
-        url: "/who_en"
+        url: "who_en"
+    },
+    "projects/index": {
+        title: "My Projects",
+        url: "projects/index"
     },
     "scratch": {
         title: "Scratch",

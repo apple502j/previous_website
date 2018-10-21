@@ -62,3 +62,14 @@ header img#appleLogo {
     color: rgb(54, 37, 13);
     padding: 10px;
 }
+
+#main a:any-link {
+    color: rgb(70, 111, 190);
+    text-decoration: none;
+}
+
+div.project {
+    min-height: 150px;
+    width: calc(100% - 50px);
+    margin: 10px;
+}

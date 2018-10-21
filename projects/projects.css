@@ -1,0 +1,11 @@
+div.project {
+    border: 5px solid rgb(222, 113, 95);
+    border-radius: 3px;
+    width: 60%;
+    padding: 10px;
+    min-height: 150px;
+}
+
+div.project > h2 {
+    border-bottom: 1px solid gray;
+}
