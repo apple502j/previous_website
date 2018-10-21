@@ -7,7 +7,8 @@ for (let k of paths) {
     if (newpaths.includes(domain) || k==domain) newpaths.push(k);
 }
 newpaths.shift();
-const relativePath = newpaths.join("/").replace(/\.html?$/g, "");
+let relativePath = newpaths.join("/").replace(/\.html?$/g, "");
+if (document.URL.match(/\/$/g)) relativePath=relativePath+"index";
 const depth = relativePath.split("/").length - 1;
 
 const routes = new Map(Object.entries({
