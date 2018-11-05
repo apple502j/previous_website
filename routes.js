@@ -14,7 +14,8 @@ const depth = relativePath.split("/").length - 1;
 const routes = new Map(Object.entries({
     "index": {
         title: "HOME",
-        url: ""
+        url: "",
+        hidden: true
     },
     "who": {
         title: "About Me",
@@ -27,6 +28,11 @@ const routes = new Map(Object.entries({
     "projects/index": {
         title: "My Projects",
         url: "projects/index"
+    },
+    "projects/scratchapi2": {
+        title: "scratchapi2",
+        url: "projects/scratchapi2",
+        hidden: true
     },
     "scratch": {
         title: "Scratch",
