@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/apple502j
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://apple502j.github.io
+  * I am apple502j (https://keybase.io/apple502j) on keybase.
+  * I have a public key ASAIoIev_veQuRLQ7AVqDRG59Xa9zVZgeCL-RZD0QDtcPwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012008a087affef790b912d0ec056a0d11b9f576bdcd56607822fe4590f4403b5c3f0a",
+      "host": "keybase.io",
+      "kid": "012008a087affef790b912d0ec056a0d11b9f576bdcd56607822fe4590f4403b5c3f0a",
+      "uid": "965a2aedc14e9487d1cf8533a7d0cc19",
+      "username": "apple502j"
+    },
+    "merkle_root": {
+      "ctime": 1546327252,
+      "hash": "18142218ed56f2c3b23e22632b6ca855ae154e2f207a893ca159cbd7700501e7efa0e73388e73db4ddc934e91ac2add95303e1ba799b2af10e7509a3de08f9bb",
+      "hash_meta": "12f835c7488dfa15edee3e59fc6cd38083120671167fb730721acceb5ac597a1",
+      "seqno": 4215264
+    },
+    "service": {
+      "entropy": "1lCmJfg0l4BDOctX0ptH1DLb",
+      "hostname": "apple502j.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.12.3"
+  },
+  "ctime": 1546327277,
+  "expire_in": 504576000,
+  "prev": "4aae1eddc5f5a245e79f742ff6a53481f4fe06c794a298207ded2586b8beb467",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgCKCHr/73kLkS0OwFag0RufV2vc1WYHgi/kWQ9EA7XD8Kp3BheWxvYWTESpcCBcQgSq4e3cX1okXnn3Qv9qU0gfT+BseUopggfe0lhri+tGfEILZNEN65vVC3E6u0zWz8a0zF3ZxguN8/Lm29BZMLuV78AgHCo3NpZ8RAGrGX2T4JrJQZ+ol5d+XUuZZ9C9jA1hnlN+x48C4VsSzSKVDsXNca2P+Jov9TnkGNJMxyH8kCpxgebpUkLAy7C6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIXHttxw4j2xw6KALL7WfA7YxeCjRkUq0YxxCApjsyf6o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/apple502j
+
+==================================================================
